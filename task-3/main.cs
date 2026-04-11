@@ -40,7 +40,7 @@ bool getActionInput()
 void AddItem()
 {
     Console.Write("Enter your item to be added : ");
-    var item = Console.ReadLine();
+    var item = Console.ReadLine().Trim();
     Console.WriteLine("the item is " + item);
     list.Add(item);
     Console.WriteLine($"item {item} added to the list successfully");
@@ -49,7 +49,7 @@ void AddItem()
 void RemoveItem()
 {
     Console.Write("Enter index of the element to be removed : ");
-    var input = Console.ReadLine();
+    var input = Console.ReadLine().Trim();
     if (int.TryParse(input, out int index))
     {
         try
