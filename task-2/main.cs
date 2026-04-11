@@ -1,5 +1,5 @@
 ﻿
-public static class MainClass
+public class MainClass
 {
     private class Person(string Name, int age)
     {
