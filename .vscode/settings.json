@@ -1,0 +1,10 @@
+{
+  "dotnet.server.useOmnisharp": true,
+  "python-envs.pythonProjects": [
+    {
+      "path": "Task6",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
+}
